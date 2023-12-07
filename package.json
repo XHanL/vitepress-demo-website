@@ -8,7 +8,7 @@
     "vitepress": "^1.0.0-rc.31"
   },
   "dependencies": {
-    "@vitepress-demo/components": "^1.0.2",
-    "@vitepress-demo/plugins": "^1.0.4"
+    "@vitepress-demo/components": "^1.0.5",
+    "@vitepress-demo/plugins": "^1.0.5"
   }
 }
