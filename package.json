@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@vitepress-demo/components": "^1.0.2",
-    "@vitepress-demo/plugins": "^1.0.2"
+    "@vitepress-demo/plugins": "^1.0.4"
   }
 }
