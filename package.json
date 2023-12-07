@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/markdown-it-container": "^2.0.9",
+    "@types/node": "^20.10.3",
+    "markdown-it-container": "^4.0.0",
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "dependencies": {
+    "@vitepress-demo/components": "^1.0.2",
+    "@vitepress-demo/plugins": "^1.0.1"
+  }
+}
