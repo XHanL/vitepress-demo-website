@@ -4,7 +4,7 @@ import { demoMarkdownPlugin, demoVitePlugin } from "@vitepress-demo/plugins";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "",
+  base: "/vitepress-demo-website/",
   title: "Vitepress Demo",
   locales: {
     root: {
