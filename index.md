@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Installation
-      link: /Installation
+      link: /installation
     - theme: alt
       text: Examples
-      link: /Examples
+      link: /examples
 
 features:
   - title: Native Style
