@@ -10,7 +10,6 @@ import {
   pushScopeId,
   renderSlot,
   resolveComponent,
-  toDisplayString,
   vShow,
   withCtx,
   withDirectives
@@ -21,11 +20,11 @@ import {
   "use strict";
   try {
     if (typeof document < "u") {
-      var a = document.createElement("style");
-      a.appendChild(document.createTextNode(".demo[data-v-4b25fca1]{background-color:var(--vp-c-bg-soft);border:1px solid var(--vp-c-divider);border-radius:10px;margin-bottom:1.2em;transition:background-color .5s ease}.dark .demo[data-v-4b25fca1]{background-color:var(--vp-c-bg-soft)}.demo p[data-v-4b25fca1]{margin:0}.demo button[data-v-4b25fca1]{background-color:var(--vp-c-bg-mute);border:1px solid var(--vp-c-divider);border-radius:8px;font-size:.9em;font-weight:600;transition:background-color .5s ease}.demo button+button[data-v-4b25fca1]{margin-left:6px}.demo-header[data-v-4b25fca1]{position:relative}.demo-header-prefix[data-v-4b25fca1]{margin-left:20px;margin-right:20px;margin-top:18px}.demo-header-prefix-title[data-v-4b25fca1]{font-size:1.1em;font-weight:700;margin-bottom:10px}.demo-header-prefix-desc[data-v-4b25fca1]{font-size:.9em}.demo-header-suffix[data-v-4b25fca1]{position:absolute;display:flex;top:-6px;right:10px}.fade-enter-active[data-v-4b25fca1],.fade-leave-active[data-v-4b25fca1]{transition:opacity .25s ease}.fade-enter-from[data-v-4b25fca1],.fade-leave-to[data-v-4b25fca1]{opacity:0}.demo-copy-button[data-v-4b25fca1],.demo-code-button[data-v-4b25fca1]{width:40px;height:40px;display:flex;justify-content:center;align-items:center}.demo-copy-icon[data-v-4b25fca1],.demo-copied-icon[data-v-4b25fca1]{width:20px;height:20px}.demo-code-icon[data-v-4b25fca1],.demo-code-slash-icon[data-v-4b25fca1]{width:17px;height:17px}.demo-content[data-v-4b25fca1]{margin-top:20px;margin-bottom:18px}.demo-footer[data-v-4b25fca1]{display:flex;position:relative;border-radius:4px 4px 8px 8px;background-color:var(--vp-c-bg);margin:2px}.dark .demo-footer[data-v-4b25fca1]{background-color:var(--vp-c-bg-alt)}.demo-footer-lang[data-v-4b25fca1]{position:absolute;top:6px;right:12px;z-index:2;font-size:12px;font-weight:500;color:var(--vp-code-lang-color)}.demo-footer-code[data-v-4b25fca1]{padding:5px 20px;font-size:small}")), document.head.appendChild(a);
+      var e = document.createElement("style");
+      e.appendChild(document.createTextNode(".demo[data-v-b16f1177]{background-color:var(--vp-c-bg-soft);border:1px solid var(--vp-c-divider);border-radius:10px;margin-bottom:1.2em;transition:background-color .5s ease}.demo p[data-v-b16f1177]{margin:0}.demo button[data-v-b16f1177]{background-color:var(--vp-c-bg-mute);border:1px solid var(--vp-c-divider);border-radius:10px;font-size:.9em;font-weight:600;transition:background-color .5s ease}.demo button+button[data-v-b16f1177]{margin-left:6px}.demo-header[data-v-b16f1177]{position:relative}.demo-header-prefix[data-v-b16f1177]{margin-left:20px;margin-right:20px;margin-top:18px}.demo-header-prefix-title[data-v-b16f1177]{font-size:1.1em;font-weight:700;margin-bottom:10px}.demo-header-prefix-desc[data-v-b16f1177]{font-size:.9em}.demo-header-suffix[data-v-b16f1177]{position:absolute;display:flex;top:-6px;right:10px}.fade-enter-active[data-v-b16f1177],.fade-leave-active[data-v-b16f1177]{transition:opacity .25s ease}.fade-enter-from[data-v-b16f1177],.fade-leave-to[data-v-b16f1177]{opacity:0}.demo-copy-button[data-v-b16f1177],.demo-code-button[data-v-b16f1177]{width:40px;height:40px;display:flex;justify-content:center;align-items:center}.demo-copy-icon[data-v-b16f1177],.demo-copied-icon[data-v-b16f1177]{width:20px;height:20px}.demo-code-icon[data-v-b16f1177],.demo-code-slash-icon[data-v-b16f1177]{width:17px;height:17px}.demo-content[data-v-b16f1177]{margin-top:20px;margin-bottom:18px}.demo-footer div[class*=language-]{background-color:var(--vp-c-bg-elv);border-radius:8px;margin:3px;box-shadow:var(--vp-shadow-1)}.dark .demo-footer div[class*=language-]{background-color:var(--vp-c-bg-alt);box-shadow:none}")), document.head.appendChild(e);
     }
-  } catch (e) {
-    console.error("vite-plugin-css-injected-by-js", e);
+  } catch (a) {
+    console.error("vite-plugin-css-injected-by-js", a);
   }
 })();
 var k = defineComponent({
@@ -89,24 +88,24 @@ var k = defineComponent({
     };
   }
 });
-var A = (e, t) => {
+var y = (e, t) => {
   const l = e.__vccOpts || e;
   for (const [r, a] of t)
     l[r] = a;
   return l;
 };
-var i = (e) => (pushScopeId("data-v-4b25fca1"), e = e(), popScopeId(), e);
-var x = { class: "demo-header" };
-var H = { class: "demo-header-prefix" };
-var L = ["innerHTML"];
+var i = (e) => (pushScopeId("data-v-b16f1177"), e = e(), popScopeId(), e);
+var A = { class: "demo-header" };
+var x = { class: "demo-header-prefix" };
+var H = ["innerHTML"];
 var z = ["innerHTML"];
-var S = { class: "demo-content" };
+var L = { class: "demo-content" };
 var T = { class: "demo-header-suffix" };
-var I = {
+var S = {
   key: 0,
   class: "demo-copied-icon"
 };
-var $ = i(() => createBaseVNode("svg", {
+var I = i(() => createBaseVNode("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
   viewBox: "0 0 20 20"
@@ -118,14 +117,14 @@ var $ = i(() => createBaseVNode("svg", {
     })
   ])
 ], -1));
-var b = [
-  $
+var $ = [
+  I
 ];
-var B = {
+var b = {
   key: 1,
   class: "demo-copy-icon"
 };
-var D = i(() => createBaseVNode("svg", {
+var B = i(() => createBaseVNode("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
   viewBox: "0 0 20 20"
@@ -138,13 +137,13 @@ var D = i(() => createBaseVNode("svg", {
   ])
 ], -1));
 var q = [
-  D
+  B
 ];
-var R = {
+var D = {
   key: 0,
   class: "demo-code-icon"
 };
-var U = i(() => createBaseVNode("svg", {
+var R = i(() => createBaseVNode("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
   viewBox: "0 0 512 512"
@@ -162,14 +161,14 @@ var U = i(() => createBaseVNode("svg", {
     fill: "currentColor"
   })
 ], -1));
-var O = [
-  U
+var U = [
+  R
 ];
-var V = {
+var O = {
   key: 1,
   class: "demo-code-slash-icon"
 };
-var E = i(() => createBaseVNode("svg", {
+var V = i(() => createBaseVNode("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
   viewBox: "0 0 512 512"
@@ -183,32 +182,30 @@ var E = i(() => createBaseVNode("svg", {
     fill: "currentColor"
   })
 ], -1));
-var N = [
-  E
+var E = [
+  V
 ];
-var j = { class: "demo-footer" };
-var F = { class: "demo-footer-lang" };
-var G = ["innerHTML"];
-function J(e, t, l, r, a, K) {
+var N = ["innerHTML"];
+function j(e, t, l, r, a, F) {
   const v = resolveComponent("ClientOnly");
   return openBlock(), createBlock(v, null, {
     default: withCtx(() => [
       createBaseVNode("div", {
         class: "demo",
-        onMouseover: t[2] || (t[2] = (n) => e.hover = true),
-        onMouseleave: t[3] || (t[3] = (n) => e.hover = false)
+        onMouseover: t[2] || (t[2] = (d) => e.hover = true),
+        onMouseleave: t[3] || (t[3] = (d) => e.hover = false)
       }, [
-        createBaseVNode("div", x, [
-          createBaseVNode("div", H, [
+        createBaseVNode("div", A, [
+          createBaseVNode("div", x, [
             createBaseVNode("div", {
               class: "demo-header-prefix-title",
               innerHTML: e.decodeTitle
-            }, null, 8, L),
+            }, null, 8, H),
             createBaseVNode("div", {
               class: "demo-header-prefix-desc",
               innerHTML: e.decodeDesc
             }, null, 8, z),
-            createBaseVNode("div", S, [
+            createBaseVNode("div", L, [
               renderSlot(e.$slots, "default", {}, void 0, true)
             ])
           ]),
@@ -217,17 +214,17 @@ function J(e, t, l, r, a, K) {
               withDirectives(createBaseVNode("div", T, [
                 createBaseVNode("button", {
                   class: "demo-copy-button",
-                  onClick: t[0] || (t[0] = (...n) => e.copyCode && e.copyCode(...n))
+                  onClick: t[0] || (t[0] = (...d) => e.copyCode && e.copyCode(...d))
                 }, [
-                  e.copied ? (openBlock(), createElementBlock("div", I, b)) : (openBlock(), createElementBlock("div", B, q))
+                  e.copied ? (openBlock(), createElementBlock("div", S, $)) : (openBlock(), createElementBlock("div", b, q))
                 ]),
                 createBaseVNode("button", {
                   class: "demo-code-button",
-                  onClick: t[1] || (t[1] = (n) => {
+                  onClick: t[1] || (t[1] = (d) => {
                     e.fold = !e.fold;
                   })
                 }, [
-                  e.fold ? (openBlock(), createElementBlock("div", R, O)) : (openBlock(), createElementBlock("div", V, N))
+                  e.fold ? (openBlock(), createElementBlock("div", D, U)) : (openBlock(), createElementBlock("div", O, E))
                 ])
               ], 512), [
                 [vShow, e.hover || e.copied]
@@ -236,13 +233,10 @@ function J(e, t, l, r, a, K) {
             _: 1
           })
         ]),
-        withDirectives(createBaseVNode("div", j, [
-          createBaseVNode("div", F, toDisplayString(e.decodeLang), 1),
-          createBaseVNode("div", {
-            class: "demo-footer-code",
-            innerHTML: e.decodeHighlight
-          }, null, 8, G)
-        ], 512), [
+        withDirectives(createBaseVNode("div", {
+          class: "demo-footer",
+          innerHTML: e.decodeHighlight
+        }, null, 8, N), [
           [vShow, e.fold]
         ])
       ], 32)
@@ -250,8 +244,8 @@ function J(e, t, l, r, a, K) {
     _: 3
   });
 }
-var Q = A(k, [["render", J], ["__scopeId", "data-v-4b25fca1"]]);
+var J = y(k, [["render", j], ["__scopeId", "data-v-b16f1177"]]);
 export {
-  Q as Demo
+  J as Demo
 };
 //# sourceMappingURL=@vitepress-demo_components.js.map
