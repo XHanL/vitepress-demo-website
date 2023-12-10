@@ -21,10 +21,10 @@ import {
   try {
     if (typeof document < "u") {
       var e = document.createElement("style");
-      e.appendChild(document.createTextNode(".demo[data-v-b16f1177]{background-color:var(--vp-c-bg-soft);border:1px solid var(--vp-c-divider);border-radius:10px;margin-bottom:1.2em;transition:background-color .5s ease}.demo p[data-v-b16f1177]{margin:0}.demo button[data-v-b16f1177]{background-color:var(--vp-c-bg-mute);border:1px solid var(--vp-c-divider);border-radius:10px;font-size:.9em;font-weight:600;transition:background-color .5s ease}.demo button+button[data-v-b16f1177]{margin-left:6px}.demo-header[data-v-b16f1177]{position:relative}.demo-header-prefix[data-v-b16f1177]{margin-left:20px;margin-right:20px;margin-top:18px}.demo-header-prefix-title[data-v-b16f1177]{font-size:1.1em;font-weight:700;margin-bottom:10px}.demo-header-prefix-desc[data-v-b16f1177]{font-size:.9em}.demo-header-suffix[data-v-b16f1177]{position:absolute;display:flex;top:-6px;right:10px}.fade-enter-active[data-v-b16f1177],.fade-leave-active[data-v-b16f1177]{transition:opacity .25s ease}.fade-enter-from[data-v-b16f1177],.fade-leave-to[data-v-b16f1177]{opacity:0}.demo-copy-button[data-v-b16f1177],.demo-code-button[data-v-b16f1177]{width:40px;height:40px;display:flex;justify-content:center;align-items:center}.demo-copy-icon[data-v-b16f1177],.demo-copied-icon[data-v-b16f1177]{width:20px;height:20px}.demo-code-icon[data-v-b16f1177],.demo-code-slash-icon[data-v-b16f1177]{width:17px;height:17px}.demo-content[data-v-b16f1177]{margin-top:20px;margin-bottom:18px}.demo-footer div[class*=language-]{background-color:var(--vp-c-bg-elv);border-radius:8px;margin:3px;box-shadow:var(--vp-shadow-1)}.dark .demo-footer div[class*=language-]{background-color:var(--vp-c-bg-alt);box-shadow:none}")), document.head.appendChild(e);
+      e.appendChild(document.createTextNode(".demo[data-v-c7b782c1]{background-color:var(--vp-c-bg-soft);border:1px solid var(--vp-c-divider);border-radius:10px;margin-bottom:1.2em;transition:background-color .5s ease}.demo p[data-v-c7b782c1]{margin:0}.demo button[data-v-c7b782c1]{background-color:var(--vp-c-bg-mute);border:1px solid var(--vp-c-divider);border-radius:10px;font-size:.9em;font-weight:600;transition:background-color .5s ease}.demo button[data-v-c7b782c1]:hover{box-shadow:inset 0 0 3px var(--vp-code-color);transition:box-shadow .2s ease}.demo button[data-v-c7b782c1]:active{box-shadow:inset 0 0 5px var(--vp-code-color);transition:box-shadow .2s ease}.demo button+button[data-v-c7b782c1]{margin-left:6px}.demo-header[data-v-c7b782c1]{position:relative}.demo-header-prefix[data-v-c7b782c1]{margin-left:20px;margin-right:20px;margin-top:18px}.demo-header-prefix-title[data-v-c7b782c1]{font-size:1.1em;font-weight:700;margin-bottom:10px}.demo-header-prefix-desc[data-v-c7b782c1]{font-size:.9em}.demo-header-suffix[data-v-c7b782c1]{position:absolute;display:flex;top:-6px;right:10px}.fade-enter-active[data-v-c7b782c1],.fade-leave-active[data-v-c7b782c1]{transition:opacity .25s ease}.fade-enter-from[data-v-c7b782c1],.fade-leave-to[data-v-c7b782c1]{opacity:0}.demo-copy-button[data-v-c7b782c1],.demo-code-button[data-v-c7b782c1]{width:40px;height:40px;display:flex;justify-content:center;align-items:center}.demo-copy-icon[data-v-c7b782c1],.demo-copied-icon[data-v-c7b782c1]{width:20px;height:20px}.demo-code-icon[data-v-c7b782c1],.demo-code-slash-icon[data-v-c7b782c1]{width:17px;height:17px}.demo-content[data-v-c7b782c1]{margin-top:20px;margin-bottom:18px}.demo-footer div[class*=language-]{background-color:var(--vp-c-bg-elv);border-radius:8px;margin:3px;box-shadow:var(--vp-shadow-1)}.dark .demo-footer div[class*=language-]{background-color:var(--vp-c-bg-alt);box-shadow:none}")), document.head.appendChild(e);
     }
-  } catch (a) {
-    console.error("vite-plugin-css-injected-by-js", a);
+  } catch (o) {
+    console.error("vite-plugin-css-injected-by-js", o);
   }
 })();
 var k = defineComponent({
@@ -94,7 +94,7 @@ var y = (e, t) => {
     l[r] = a;
   return l;
 };
-var i = (e) => (pushScopeId("data-v-b16f1177"), e = e(), popScopeId(), e);
+var i = (e) => (pushScopeId("data-v-c7b782c1"), e = e(), popScopeId(), e);
 var A = { class: "demo-header" };
 var x = { class: "demo-header-prefix" };
 var H = ["innerHTML"];
@@ -244,7 +244,7 @@ function j(e, t, l, r, a, F) {
     _: 3
   });
 }
-var J = y(k, [["render", j], ["__scopeId", "data-v-b16f1177"]]);
+var J = y(k, [["render", j], ["__scopeId", "data-v-c7b782c1"]]);
 export {
   J as Demo
 };

@@ -7,10 +7,9 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import type { PropType, StyleValue } from "vue";
-import { parseSpaceSize } from "./utils";
 
 export default defineComponent({
-    name: "Space",
+    name: "CrSpace",
     props: {
         wrap: {
             type: Boolean,
@@ -46,4 +45,31 @@ export default defineComponent({
         }
     }
 });
+
+function parseSpaceSize(size: string | [string, string]): string {
+    function parseSpaceSizeValue(value: string): string {
+        switch (value) {
+            case "small":
+                return "4px";
+            case "middle":
+                return "8px";
+            case "large":
+                return "12px";
+        }
+        return parsePx(value);
+    }
+    if (Array.isArray(size)) {
+        return size.map((value) => parseSpaceSizeValue(value)).join(" ");
+    } else {
+        return parseSpaceSizeValue(size);
+    }
+}
+
+function parsePx(value: string) {
+    if (value.endsWith("px")) {
+        return value;
+    } else {
+        return `${value}px`;
+    }
+}
 </script>

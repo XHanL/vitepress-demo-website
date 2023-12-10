@@ -1,16 +1,11 @@
 <template>
-    <Space>
-        <Icon color="turquoise">
-            <ArrowCircleRight />
-        </Icon>
-        <Icon color="#d0d080">
-            <ArrowCircleRight />
-        </Icon>
-    </Space>
+    <CrSpace>
+        <CrIcon color="turquoise" /> <!-- [!code focus:2] -->
+        <CrIcon color="#d0d080" />
+    </CrSpace>
 </template>
 
 <script setup lang="ts">
-import Icon from "../components/Icon.vue"
-import Space from "../components/Space.vue";
-import ArrowCircleRight from "../icons/ArrowCircleRight.vue";
+import CrIcon from "../components/CrIcon.vue" // [!code focus]
+import CrSpace from "../components/CrSpace.vue";
 </script>
